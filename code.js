@@ -11,7 +11,7 @@ const quotes = {
             "Do it now", "Progress isn't made by early risers"]
     },
 
-    //generates random number with max num-1
+    //generates random number with max num-1 and min 0
     generateRandNum(num){
         return Math.floor(Math.random() * (num));
     },
